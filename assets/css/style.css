@@ -1,0 +1,161 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+#imagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+#nome{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#nome_do_produto{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 12px;
+    width: 150px;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#descricao {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 12px;
+    word-wrap: break-word;
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#comprar{
+    width: 90px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2;
+    background: rgb(39, 38, 38);
+    color: white;
+}
+
+#comprar:hover{
+    width: 90px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2;
+    background: rgb(163, 165, 163);
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+@media (min-width: 727px) and (max-width: 1279px) {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #descricao {
+        width: 100%;
+        max-width: 250px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 12px;
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #info {
+        float: left;
+        width: 50%;
+        margin: 0; 
+    }
+  
+    #imagem {
+        float: left;
+        width: 40%;
+        margin-right: -10%;
+        margin-left: 5%;
+    }
+  
+    #imagem img {
+        width: 100%;
+    }
+  
+    #info {
+        float: left;
+        width: 50%;
+    }
+  
+    #nome_do_produto {
+        margin-top: 0;
+        
+    }
+  
+    #nome{
+        margin-right: 30%;
+    }
+
+    #text {
+        clear: both;
+        width: 90%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin: 30px auto 0;
+    }
+  
+    #botao {
+        clear: both;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+  
+    #comprar {
+        width: 100px;
+        height: 40px;
+        padding: 10px 20px;
+        margin: 0;
+    }
+  
+    #comprar:hover {
+        margin-left: 100px;
+    }
+  
+    #nome_do_produto, #text, #botao #comprar {
+        float: right;
+        width: 70%;
+    }
+  }
